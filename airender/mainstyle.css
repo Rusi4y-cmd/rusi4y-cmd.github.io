@@ -2,3 +2,7 @@ body {
     color: "black";
     @font-face: "arial"
 }
+
+hr {
+    color: midnightblue;
+}
