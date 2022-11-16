@@ -8,6 +8,15 @@
         </head>
         <body>
             <center>
+                <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfhmQ0jAAAAABHh1jLSyAoR48-goO2yLmTPXmPh"></script>
+                <script>
+                grecaptcha.enterprise.ready(function() {
+                    grecaptcha.enterprise.execute('6LfhmQ0jAAAAABHh1jLSyAoR48-goO2yLmTPXmPh', {action: 'login'}).then(function(token) {
+                       ...
+                    });
+                });
+                </script>
+
                 <h1>Официальный договор<br>"Общение"</h1>
                 <hr>
                 <h4>Примечание: возможно договор будет изменяться. </h4>
